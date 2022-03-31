@@ -1,0 +1,97 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+/* font-family: 'Pattaya', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+/* font-family: 'Henny Penny', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+/* *************************** */
+
+/* css files */
+@import "header/header.css";
+@import "footer/footer.css";
+@import "font-awesome.min.css";
+
+
+/* *************************** */
+
+:root {
+    --mardiPurple: #9453A6;
+    --mardiGreen: #8CBF3F;
+    --mardiYellow: #F2CC0F;
+    --mardiWhite: #F2F2F2;
+    --mardiBlack: #0D0D0D;
+}
+
+
+.myBody {
+    background-color: var(--mardiBlack);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.formContainer {
+    background-color: var(--mardiWhite);
+    border-radius: 10px;
+    width: 50%;
+    padding: 50px 80px;
+    margin: 50px;
+}
+
+.formContainer form h1 {
+    text-align: center;
+    margin: 0 0 20px;
+    font-family: 'Pattaya', sans-serif;
+    color: var(--mardiPurple);
+}
+
+form input[type=submit] {
+    background-color: var(--mardiPurple);
+    border: 2px solid var(--mardiBlack);
+    border-radius: 4px;
+    color: #fff;
+    display: block;
+    font-size: 1em;
+    padding: 10px;
+    width: 25%;
+    margin-top: 10px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+/* responsive */
+/* large */
+
+@media(min-width:768px) and (max-width:992px) {
+    .formContainer {
+        width: 75%;
+        padding: 30px 40px;
+        margin: 25px;
+    }
+}
+
+/* medium */
+@media(min-width:576px) and (max-width:768px) {
+    .formContainer {
+        width: 85%;
+        padding: 15px 20px;
+        margin: 15px;
+    }
+}
+
+/* small */
+@media(min-width:250px) and (max-width:576px) {
+    .formContainer {
+        width: 95%;
+        padding: 5px 10px;
+        margin: 5px;
+    }
+}

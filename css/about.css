@@ -1,0 +1,77 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+/* font-family: 'Pattaya', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+/* font-family: 'Henny Penny', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+/* *************************** */
+
+/* css files */
+@import "header/header.css";
+@import "footer/footer.css";
+@import "font-awesome.min.css";
+
+
+/* *************************** */
+
+:root {
+    --mardiPurple: #9453A6;
+    --mardiGreen: #8CBF3F;
+    --mardiYellow: #F2CC0F;
+    --mardiWhite: #F2F2F2;
+    --mardiBlack: #0D0D0D;
+}
+
+
+/* text */
+.myTextContainer {
+    background-color: var(--mardiBlack);
+    color: var(--mardiWhite);
+    padding: 30px 50px 30px 50px;
+    border: 2px solid black;
+}
+
+.myTextContainer h2,
+.laToya h2 {
+    font-family: 'Pattaya';
+    margin: 20px;
+}
+
+.myTextContainer h4 {
+    line-height: 1.5;
+    font-family: 'Roboto',
+        sans-serif;
+    font-style: italic;
+}
+
+.laToya {
+    flex-direction: column;
+    background-color: var(--mardiWhite);
+    color: var(--mardiBlack);
+    padding: 30px 20px 30px 20px;
+    font-weight: 900;
+    border: 2px solid black;
+}
+
+.myTextContainer p,
+.laToya p {
+    margin-bottom: 0;
+    text-align: justify;
+    font-family: 'Roboto',
+        sans-serif;
+}
+
+.laToya img {
+    float: left;
+    margin: 0px 25px 10px 0;
+}
+
+.laToya h5 {
+    font-family: 'Roboto',
+        sans-serif;
+    font-weight: 900;
+}

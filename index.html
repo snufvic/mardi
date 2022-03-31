@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Home Page</title>
+    <link rel="shortcut icon" href="pictures/mardiGrasLogo.png">
+
+</head>
+
+<body>
+
+    <!-- nav - bootstrap -->
+    <div class="container-fluid">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light navbar-bgColor">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="pictures/mardiGrasLogo.png" alt="mardiGrasLogo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="media.html">Media</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="faq.html">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="trivia.html">Trivia</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- end nav - bootstrap -->
+
+
+    <!-- carousel bootstrap -->
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="pictures/slider/mardi-gras-masks.jpg" alt="mardi gras masks">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="pictureHeader myPictureHeader">Mardi Gras Masks</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="pictures/slider/cityDecor.jpg" alt="mardi gras city decoration">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="pictureHeader myPictureHeader">Mardi Gras City Decoration</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="pictures/slider/Mardi-Gras-Flags.jpg" alt="mardi gras flags">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="pictureHeader myPictureHeader">Mardi Gras Flags</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="pictures/slider/mask.jpg" alt="mask">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="pictureHeader myPictureHeader">Mardi Gras Mask</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="pictures/slider/nightTime.jpg" alt="night time">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="pictureHeader myPictureHeader">Mardi Gras Night Time</h5>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+    </div>
+    <!-- end carousel bootstrap -->
+
+
+    <!-- countdown -->
+    <div class="countdown-container">
+
+        <div class="countdown cRow" id="countdown-829800">
+
+            <div class="cd-head">
+                <h3>Countdown to</h3> <br>
+                <h3>Mardi Gras 2022</h3>
+            </div>
+            <div class="cd-body">
+                <div class="cd-col cd-days">Days <span id="countdown-829800-days"></span></div>
+                <div class="cd-col cd-hrs">Hours <span id="countdown-829800-hours"></span></div>
+                <div class="cd-col cd-mins">Minutes <span id="countdown-829800-mins"></span></div>
+                <div class="cd-col cd-secs">Seconds <span id="countdown-829800-secs"></span></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!-- end countdown -->
+
+
+
+    <!-- Card bootstrap -->
+
+
+
+    <div class="row myRow">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-3">
+            <div class="card myCard">
+                <img class="card-img-top" src="pictures/sponsers logo/walkons-logo.svg" alt="walkons-logo">
+                <div class="card-body">
+                    <h6 class="card-title">There’s really no better way to describe the uniqueness of Walk-On’s Sports
+                        Bistreaux. We start every dish from scratch and use fresh ingredients to bring our
+                        mouthwatering, Cajun cuisine to life</h6>
+                </div>
+                <a href="https://walk-ons.com/" target="_blank" class="btn btn-primary myBtn-primary">Visit Us</a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-3">
+            <div class="card myCard">
+                <img class="card-img-top" src="pictures/sponsers logo/sheraton.png" alt="sheraton-logo">
+                <div class="card-body">
+                    <h6 class="card-title">Everything you need for a relaxing vacation, a successful meeting, a
+                        memorable event...it's all waiting for you at the Sheraton New Orleans Hotel</h6>
+                </div>
+                <a href="https://www.guestreservations.com/sheraton-new-orleans/booking?gclid=Cj0KCQjwssyJBhDXARIsAK98ITTWNVLhLnA6CG2ssQz61IZC4lsr3mujRHv2OI6738h6yFsBkr9rmxUaAo4gEALw_wcB"
+                    target="_blank" class="btn btn-primary myBtn-primary">Book Now</a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-3">
+            <div class="card myCard">
+                <img class="card-img-top" src="pictures/sponsers logo/ace.png" alt="ace-logo">
+                <div class="card-body">
+                    <h6 class="card-title">Ace Hotel is a collection of individuals, multiple and inclusive, seeking to
+                        embrace the cities we’re in by building spaces for collective gathering. our aim is always to
+                        make
+                        something energized, human and useful</h6>
+                </div>
+                <a href="https://www.acehotel.com/neworleans/" target="_blank"
+                    class="btn btn-primary myBtn-primary">Book Now</a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-3">
+            <div class="card myCard">
+                <img class="card-img-top" src="pictures/sponsers logo/ritz.png" alt="ritz-logo">
+                <div class="card-body">
+                    <h6 class="card-title">Within New Orleans’ French Quarter on Canal Street, this four-star hotel
+                        honors the city through its services and décor. Housed in the historic Beaux Arts Maison Blanche
+                        building from 1908, the hotel pairs southern charm with boutique luxury</h6>
+                </div>
+                <a href="https://www.ritzcarlton.com/en/hotels/new-orleans" target="_blank"
+                    class="btn btn-primary myBtn-primary">Book
+                    Now</a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-3">
+            <div class="card myCard">
+                <img class="card-img-top" src="pictures/sponsers logo/PremiumParking.png" alt="Premium-Parking-logo">
+                <div class="card-body">
+                    <h6 class="card-title">We live at the intersection of parking and technology. We are a technology
+                        company, a parking operator, and network of parking advisors to bring it all together. We built
+                        our own custom cloud-based parking management software to run our locations</h6>
+                </div>
+                <a href="https://www.premiumparking.com/P402/" target="_blank"
+                    class="btn btn-primary myBtn-primary">Visit Us</a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-3">
+            <div class="card myCard">
+                <img class="card-img-top" src="pictures/sponsers logo/LCM.png" alt="LCM-logo">
+                <div class="card-body">
+                    <h6 class="card-title">When you make a child’s potential visible, wonderful things happen. So we
+                        created a place where kids use play, shared exploration, and conversation to connect with the
+                        people and world around them. A place where kids can be the amazing humans they are</h6>
+                </div>
+                <a href="https://lcm.org/" target="_blank" class="btn btn-primary myBtn-primary">Visit Us</a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-3">
+            <div class="card myCard">
+                <img class="card-img-top" src="pictures/sponsers logo/MuseumOfDeathLogo.jpg" alt="Museum-Of-Death-Logo">
+                <div class="card-body">
+                    <h6 class="card-title">the Museum of Death houses the world’s largest collection of serial killer
+                        artwork, antique funeral ephemera, mortician and coroners instruments, crime scene photographs
+                        and so much more!</h6>
+                </div>
+                <a href="http://www.museumofdeath.net/nola" target="_blank" class="btn btn-primary myBtn-primary">Visit
+                    Us</a>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-3">
+            <div class="card myCard">
+                <img class="card-img-top" src="pictures/sponsers logo/haunted.png_512" alt="haunted-museum-logo">
+                <div class="card-body">
+                    <h6 class="card-title">Many illuminating facets are part of New Orleans, they draw you in and cast a
+                        spell, but the underlying feeling of our sultry city comes from the Spirit of Place—the genus
+                        loci</h6>
+                </div>
+                <a href="https://www.bloodymarystours.com/hauntedmuseum.html" target="_blank"
+                    class="btn btn-primary myBtn-primary">Visiit Us</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- end Cards bootstrap -->
+
+    <!-- short mardi gras text -->
+
+    <div class="myTextContainer">
+        <h2>MARDI GRAS</h2>
+        <h4>The king of New Orleans celebrations shows off the city's spirit</h4>
+        <p>That’s the call to riders dispensing beads and “throws” from the elaborate floats of Mardi Gras. The name of
+            the
+            holiday’s misleading. It’s about a month or so of parties named for just one day, Fat Tuesday, the last day
+            before
+            Lent. But Mardi Gras is more in New Orleans. No one does Carnival like the Crescent City. Beginning on
+            Twelfth
+            Night, Jan. 6, the city is obsessed with eating, costuming, bead-tossing and parading that increases in
+            intensity as
+            Ash Wednesday nears. On the weekends leading up to Fat Tuesday, parades roll all over town. Spectators gasp
+            at the
+            colossal Endymion floats and delight in the social satire of Krewe d’Etat’s. There are new traditions like
+            Chewbacchus with its Star Wars-inspired tomfoolery and ages old ones such as Zulu and Rex. Visitors are
+            encouraged
+            to explore New Orleans Mardi Gras traditions. To eat oysters and king cake, watch parades roll down St.
+            Charles
+            Avenue and tag along with marching krewes as they wind their way into the Quarter from New Orleans historic
+            neighborhoods.</p>
+    </div>
+    <!-- end of short mardi gras text -->
+
+
+
+    <!-- Footer bootstrap -->
+
+    <section id="footer">
+        <div class="container">
+            <div class="row footerRow text-xs-center text-sm-left text-md-left">
+                <div class="myFooterSec col-xs-12 col-sm-6 col-md-6">
+                    <h5>Quick links</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="index.html"><i class="fa fa-angle-double-right"></i>Home</a>
+                        </li>
+                        <li><a href="about.html"><i class="fa fa-angle-double-right"></i>About</a>
+                        </li>
+                        <li><a href="media.html"><i class="fa fa-angle-double-right"></i>Media</a>
+                        </li>
+                        <li><a href="faq.html"><i class="fa fa-angle-double-right"></i>FAQ</a></li>
+                        <li><a href="contact.html"><i class="fa fa-angle-double-right"></i>Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="myFooterSec col-xs-12 col-sm-6 col-md-6">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Find us</h5>
+                    <p><i class="fa fa-location-arrow"></i> Bourbon Street </p>
+                    <p><i class="fa fa-phone"></i> +91-987654321 </p>
+                    <p><i class="fa fa fa-envelope"></i><a href="mailto:info@mardigras.com" target="_blank">
+                            info@mardigras.com </a></p>
+                </div>
+            </div>
+
+        </div>
+        <div class="row sponsorsRow">
+            <h5>Our Sponsors</h5>
+            <div class="myFooterSec col-xs-12 col-sm-6 col-md-3">
+
+                <ul class="list-unstyled quick-links">
+                    <li><a href="https://walk-ons.com/" target="_blank"><i
+                                class="fa fa-angle-double-right"></i>Walk-On's
+                            Bistreaux
+                            and Bar</a>
+                    </li>
+                    <li><a href="https://www.guestreservations.com/sheraton-new-orleans/booking?gclid=Cj0KCQjwssyJBhDXARIsAK98ITTWNVLhLnA6CG2ssQz61IZC4lsr3mujRHv2OI6738h6yFsBkr9rmxUaAo4gEALw_wcB"
+                            target="_blank"><i class="fa fa-angle-double-right"></i>Sheraton Hotel</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="myFooterSec col-xs-12 col-sm-6 col-md-3">
+
+                <ul class="list-unstyled quick-links">
+                    <li><a href="https://www.acehotel.com/neworleans/" target="_blank"><i
+                                class="fa fa-angle-double-right"></i>Ace
+                            Hotel</a>
+                    </li>
+                    <li><a href="https://www.ritzcarlton.com/en/hotels/new-orleans" target="_blank"><i
+                                class="fa fa-angle-double-right"></i>The
+                            Ritz-Carlton</a></li>
+                </ul>
+            </div>
+            <div class="myFooterSec col-xs-12 col-sm-6 col-md-3">
+
+                <ul class="list-unstyled quick-links">
+                    <li><a href="https://www.premiumparking.com/P402/" target="_blank"><i
+                                class="fa fa-angle-double-right"></i>Premium Parking - P402</a></li>
+                    <li><a href="https://lcm.org/" target="_blank"><i class="fa fa-angle-double-right"></i>Louisiana
+                            Children's Museum</a></li>
+                </ul>
+            </div>
+            <div class="myFooterSec col-xs-12 col-sm-6 col-md-3">
+
+                <ul class="list-unstyled quick-links">
+
+                    <li><a href="http://www.museumofdeath.net/nola" target="_blank"><i
+                                class="fa fa-angle-double-right"></i>Museum
+                            of Death</a></li>
+                    <li><a href="https://www.bloodymarystours.com/hauntedmuseum.html" target="_blank"><i
+                                class="fa fa-angle-double-right"></i>Haunted Museum</a></li>
+                </ul>
+            </div>
+
+        </div>
+        <hr>
+        <div class="row footerRow">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                <ul class="list-unstyled list-inline social text-center">
+                    <li class="list-inline-item"><a href="https://www.facebook.com/MardiGrasNewOrleans"
+                            target="_blank"><i class="fa fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a href="https://twitter.com/MardiGrasNOLA" target="_blank"><i
+                                class="fa fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.instagram.com/mardigrasneworleans/"
+                            target="_blank"><i class="fa fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href="mailto:info@mardigras.com" target="_blank"><i
+                                class="fa fa-envelope"></i></a></li>
+                </ul>
+            </div>
+            <hr>
+        </div>
+        <div class="row footerRow">
+            <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                <h6>© Mantis Web - Amit Wicnudel</h6>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- end Footer bootstrap -->
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="js/index.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,178 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+/* font-family: 'Pattaya', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+/* font-family: 'Henny Penny', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+
+/* *************************** */
+
+/* css files */
+@import "header/header.css";
+@import "footer/footer.css";
+@import "font-awesome.min.css";
+
+
+/* *************************** */
+
+:root {
+    --mardiPurple: #9453A6;
+    --mardiGreen: #8CBF3F;
+    --mardiYellow: #F2CC0F;
+    --mardiWhite: #F2F2F2;
+    --mardiBlack: #0D0D0D;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 110px 0 0 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.mediaRow {
+    background-color: var(--mardiBlack);
+    text-align: center;
+    margin: 0 auto;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+
+}
+
+.videosRow {
+    background-color: var(--mardiBlack);
+    text-align: center;
+    margin: 0 auto;
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+    padding-top: 20px;
+}
+
+.mediaRow>.column {
+    padding: 6px 6px;
+}
+
+.videoRow>.videoColumn {
+    padding: 600px 600px;
+}
+
+.mediaRow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    float: left;
+    width: 25%;
+}
+
+.videoColumn {
+    float: left;
+    width: 33%;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+    margin-top: 110px;
+    /* nav height */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    width: 90%;
+    max-width: 1200px;
+    border: none
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.mySlides {
+    display: none;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: var(--mardiBlack);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
